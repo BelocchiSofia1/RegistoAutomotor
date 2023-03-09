@@ -2,20 +2,20 @@
     {
     "marca": "Ford",
     "modelo": "EcoSport",
-    "año": 2010,
+    "anio": 2010,
     "siglasPatente": "IMF",
     "numPatente": 256
 },
 {   "marca": "Toyota",
     "modelo": "Corolla", 
-    "año:": 2014,
+    "anio:": 2014,
     "siglasPatente": "MGS",
     "numPatente": 588
 },
 {
     "marca": "Mercedes-Benz",
     "modelo": "Utilitario GL",
-    "año": 2006,
+    "anio": 2006,
     "siglasPatente": "NCY",
     "numPatente": 934
 }

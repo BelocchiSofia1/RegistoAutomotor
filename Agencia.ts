@@ -12,9 +12,12 @@ agencia = automoviles.map((item:any) => item);
 
 //console.log(automoviles)
 
-const registro = new RegistroAutomotor
-const renault = new Auto ("Renault", "Kangoo", 2008, "JYT", 679)
+const registro : RegistroAutomotor = new RegistroAutomotor
+const renault = new Auto ("Renault", "Kangoo", 2008, "JYT", 679);
+const toyota = new Auto ("Toyota", "Corolla", 2009, "RBD", 841);
 
 
-
-registro.consultar("renault", agencia)
+//registro.consultar("Ford", agencia)
+//registro.borrar("Toyota", agencia)
+//registro.actualizar("Mercedes-Benz", agencia, "Fitito")
+//registro.alta(renault, agencia)

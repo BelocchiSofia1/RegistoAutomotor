@@ -20,11 +20,11 @@ export default class RegistroAutomotor{
     if(array.push(auto)){
         console.log('Se ha añadido ', auto.marca, ' a la base de datos', array);
     } else{
-        console.log('El auto', auto.marca, ' No se ha podido añadir al registro');
-        
+        console.log('El auto', auto.marca , ' No se ha podido añadir al registro');
+    
     }
 }
-    
+
     actualizar(marca: string, array: Auto[], dato: string){
     let modificarAuto = this.consultar(marca, array)
     if(modificarAuto){
@@ -46,6 +46,8 @@ export default class RegistroAutomotor{
 
      console.log('Automovil', marca, 'no ha sido eliminado');
     }
+
+    
 }
 }
 
